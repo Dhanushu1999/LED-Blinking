@@ -1,6 +1,3 @@
-DOXY_FILE = Doxyfile
-doc: $(DOXY_FILE)
-	doxygen ./$(DOXY_FILE)
-
-clean:
-	rm -rf html*
+# Document the code using Doxygen
+doc: Doxyfile
+	doxygen ./Doxyfile
