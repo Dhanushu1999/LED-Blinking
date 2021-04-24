@@ -1,5 +1,5 @@
-DOXY_FILE = Blinky
-doc:
+DOXY_FILE = Doxyfile
+doc: $(DOXY_FILE)
 	doxygen ./$(DOXY_FILE)
 
 clean:
